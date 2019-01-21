@@ -1,0 +1,17 @@
+bal LOOP
+bnv LOOP
+beq LOOP
+bne LOOP
+bvs LOOP
+bvc LOOP
+bmi LOOP
+bpl LOOP
+bcs LOOP
+bcc LOOP
+bhi LOOP
+bls LOOP
+bgt LOOP
+blt LOOP
+bge LOOP
+ble LOOP
+LOOP:

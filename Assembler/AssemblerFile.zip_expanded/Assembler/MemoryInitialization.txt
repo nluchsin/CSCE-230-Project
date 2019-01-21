@@ -1,0 +1,18 @@
+ldw r2,1(r0)
+ldw r3,2(r0)
+ldw r4,3(r0)
+addi r10,r0,0
+LOOP:
+ldw r5,0(r2)
+cmp r9,r5,r0
+beq ALE
+cmp r7,r5,r6
+bne OUT
+ALE: 
+addi r6,r5,0
+br LOOP
+OUT:
+add r8,r5,r10
+addi r10,r8,0
+stw r8,0(r4)
+br ALE

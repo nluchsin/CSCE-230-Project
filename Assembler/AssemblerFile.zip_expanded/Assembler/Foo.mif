@@ -1,0 +1,10 @@
+WIDTH=24;
+DEPTH=1024
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+1 : add r1,r0,r2
+2 : addi r2,r0,30
+3 : sll r2,29

@@ -1,0 +1,28 @@
+--Assembler by Rustin Haase and Nathan Luchsinger for Group 6
+
+WIDTH=24;
+DEPTH=1024;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+0 : 000000;
+1 : 900010;
+2 : 810010;
+3 : 820010;
+4 : 830010;
+5 : 840010;
+6 : 850010;
+7 : 860010;
+8 : 870010;
+9 : 880010;
+10 : 890010;
+11 : 8A0010;
+12 : 8B0010;
+13 : 8C0010;
+14 : 8D0010;
+15 : 8E0010;
+16 : 8F0010;
+[17..1023] : 000000;
+END;
